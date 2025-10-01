@@ -15,10 +15,14 @@ enum NetworkType {
     
     var description: String {
         switch self {
-            case .cellular: return "Cellular"
-            case .ethernet: return "Ethernet"
-            case .wifi: return "Wi-Fi"
-            case .other: return "Other"
+            case .cellular: 
+                return "Cellular"
+            case .ethernet: 
+                return "Ethernet"
+            case .wifi: 
+                return "Wi-Fi"
+            case .other: 
+                return "Other"
         }
     }
 }
